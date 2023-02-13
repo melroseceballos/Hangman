@@ -6,6 +6,19 @@ You're going to be putting your knowledge of JavaScript and the DOM to the test 
 Additionally, there is a `solutions` branch provided for you in case you need to look at it for reference. **REMEBER THERE ARE MANY WAYS TO ACHEIVE THE SAME END, THERE IS NO ONE RIGHT ANSWER.** All that matters is that your app meets the specifications below, and you'll be good. The code in the `solutions` branch may be more complicated, or it could be more simplistic than your code. As long as your hangman game functions, you're set!
 
 
+## Set Up
+- Fork and clone this repository
+- Create a separate folder called `browser-game`
+- Inside `browser-game` create an HTML, CSS, and JS file
+- Link your files together
+
+
+## Planning
+- Wireframe the game out! What do you want your hangman to look like? It's okay to make it rudimentary, as long as its functional we're good! There is a limited amount of time to spend on this, so making it look pretty should be the last thing you focus on.
+- Think about the game logic. What actions are involved? Do some actions trigger others?
+- Start simple with basic functionality, then gradually combine different pieces of the game until it all fits together.
+
+
 ## Rules of the Game
 Most of us are familiar with the game of Hangman. Your browser game will behave as any normal hangman game. If you are unfamiliar with hangman, here's how it works:
 
