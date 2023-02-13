@@ -3,7 +3,7 @@
 
 You're going to be putting your knowledge of JavaScript and the DOM to the test by building a hangman game in the browser!! It will be your biggest homework yet, but you have three days ***and*** class time to work on it. You'll do great!
 
-Additionally, there is a `solutions` branch provided for you in case you need to look at it for reference. **REMEBER THERE ARE MANY WAYS TO ACHEIVE THE SAME END, THERE IS NO ONE RIGHT ANSWER.** All that matters is that your app meets the specifications below, and you'll be good. The code in the `solutions` branch may be more complicated, or it could be more simplistic than your code. As long as your hangman game functions, you're set!
+Additionally, there is a `solutions` branch provided for you in case you need to look at it for reference. **REMEMBER THERE ARE MANY WAYS TO ACHEIVE THE SAME END, THERE IS NO ONE RIGHT ANSWER.** All that matters is that your app meets the specifications below, and you'll be good. The code in the `solutions` branch may be more complicated, or it could be more simplistic than your code. As long as your hangman game functions, you're set!
 
 
 ## Set Up
