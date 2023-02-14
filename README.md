@@ -31,6 +31,7 @@ Most of us are familiar with the game of Hangman. Your browser game will behave 
 
 
 ## Specifications
+- Create a wireframe that lays out what your Hangman game will look like, including any necessary comments about behavior/functionality of the site
 - Your game abides by the rules of hangman (listed above)
 - Every time you refresh the page, a word/phrase to be guessed is randomly chosen (HINT: Maybe you can use `Math.random()` and arrays)
 - After the player guesses a letter by clicking on it, that letter is not able to be clicked on again. (HINT: maybe you can remove the `<button>` after it has been guessed, or `disable` it)
