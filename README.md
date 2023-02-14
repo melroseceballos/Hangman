@@ -8,7 +8,7 @@ Additionally, there is a `solutions` branch provided for you in case you need to
 
 ## Set Up
 - Fork and clone this repository
-- Create a folder `mkdir` called `browser-game`
+- Create a folder called `browser-game`
 - `cd` into `browser-game` and create an HTML, CSS, and JS file
 - Link your files together
 
