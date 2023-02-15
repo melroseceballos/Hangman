@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    padding-top: 120px;
+    font-size: 75px;
+    color: black;
+}
+.play{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+.play:hover{color: green}
+body{
+    background-image: url("https://images.template.net/112311/free-animation-virtual-classroom-background-tvwow.jpg");
+    background-position: contain;
+    background-size: 1450px 950px;
+/* resize background */
+}
