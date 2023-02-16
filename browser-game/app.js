@@ -1,26 +1,17 @@
-//const prompt = required('prompt-sync') ();
-
-//Word Sequence
-/**const animal = "animals" = ["cat", "dog", "rat", "tiger", "wolf", "deer", "panda","elephant", "buffalo", "tortoise", "penguin", "alligator", "badger","snake", "armadillo", "axolotl", "octopus", "whale", "moles", "goose", "cheetah", "chipmunk", "gecko", "sea lion", "gorilla" , "magpie", "antelope", "rabbits" ];
-var words = animal[Math.floor(Math.random () * animal.length)]
-
-var word = words [Math.floor(Math.random () * words.length)];
-var answerArray = [];
-for(var i = 0; i<word.length; i++) {
-    answerArray [i] = "_";
-
-    var remainingLetter = word.length;
-}*/ 
-
-
-//play button sequence for window 2
+//play button call
 function hide (){
     document.getElementById('welcome').style.display = 'none';
     document.getElementById('play').style.display = 'none';
+    document.getElementById('word-guess').style.display = "block";
+    document.getElementById('letters').style.display = "block";
+    document.getElementById('mystery-word').style.display = "block";
 }
 
-
-
+//GUESS WORD GENERATOR
+const words = ["cat", "dog", "rat", "tiger", "wolf", "deer", "panda","elephant", "buffalo", "tortoise", "penguin", "alligator", "badger","snake", "armadillo", "axolotl", "octopus", "whale", "moles", "goose", "cheetah", "chipmunk", "gecko", "sea lion", "gorilla" , "magpie", "antelope", "rabbits" ];
+ let wordIndex = Math.floor(Math.random() * words.length);
+ magicWord = words[wordIndex];
+console.log(magicWord)
 // use prompt sync for user input for the letter
 
 //ask user for  a new game?
