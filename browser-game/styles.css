@@ -53,7 +53,7 @@ body{
 
   /**********GUESS WORD *************/
 #word-guess{
-   margin-top: -465px;
+   margin-top: -375px;
     text-align: center;
     font-size: 45px;
     display: none;
@@ -62,22 +62,23 @@ body{
 #mystery-word{
     display: none;
     text-align: center;
-   margin-top: -90px;
+   
 }
 
 /******************HANGMAN******************/
 
-.gallows{
+#gallows{
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
-   display: none;
+    display: none;
+   
 }
 .hang-head {
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
@@ -86,7 +87,7 @@ body{
 }
 .hang-body{
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
@@ -95,7 +96,7 @@ body{
 }
 .right-arm{
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
@@ -103,7 +104,7 @@ body{
 }
 .left-arm{
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
@@ -111,7 +112,7 @@ body{
 }
 .left-leg{
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
@@ -120,9 +121,45 @@ body{
 }
 .right-leg{
     transform: scaleX(-1);
-    margin-top: 60vh;
+    margin-top: 28vh;
     height: 300px;
     margin-left: 575px;
     width: 300px;
     display: none;
 }
+
+#word {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: grey;
+  }
+  
+  button.wrong {
+    background-color: var(--accent-dark);
+    cursor: not-allowed;
+  }
+  
+  button.correct {
+    background-color: var(--accent-light);
+    cursor: not-allowed;
+  }
+  
+  #replay {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .7rem;
+    margin-top: 2rem;
+    border: 2px solid grey;
+    color: grey;
+    border-radius: .2rem;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #replay:hover {
+    background-color: grey;
+    color: white;
+  }
+  #specialWord{
+    display: none;
+  }
