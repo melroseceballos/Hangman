@@ -3,16 +3,77 @@ h1 {
     padding-top: 120px;
     font-size: 75px;
     color: black;
+    display: none;
 }
 .play{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 150px;
     color: white;
+    padding-left: 40px;
+  
 }
 .play:hover{color: green}
 body{
     background-image: url("https://images.template.net/112311/free-animation-virtual-classroom-background-tvwow.jpg");
-    background-position: contain;
-    background-size: 1450px 950px;
+    background-position: fixed;
+    background-size: 180vh
+    
 /* resize background */
+}
+.gallows{
+    transform: scaleX(-1);
+    margin-top: 1.2vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
+    display: none;
+}
+.hang-head {
+    transform: scaleX(-1);
+    margin-top: 1.2vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
+    display: none;
+    
+}
+.hang-body{
+    transform: scaleX(-1);
+    margin-top: 1.2vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
+    display: none;
+}
+.right-arm{
+    transform: scaleX(-1);
+    margin-top: 1.2vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
+    display: none;
+}
+.left-arm{
+    transform: scaleX(-1);
+    margin-top: 1.2vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
+    display: none;
+}
+.left-leg{
+    transform: scaleX(-1);
+    margin-top: 1.2vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
+    display: none;
+
+}
+.right-leg{
+    transform: scaleX(-1);
+    margin-top: 1.0vh;
+    height: 900px;
+    margin-left: 250px;
+    width: 550px;
 }
