@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,17 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hangman</title>
     <link rel="stylesheet" href="styles.css"></link>
-    <script src="app.js"></script>
+    <!-- Link app.js-->
+   <script src = 'app.js'></script>
+
+      <!------------------ OPENING WINDOW------------>
   </head>
   <body>
-    <!-- first sequence-->
-    <div class = window1>
-	<h1 class= "welcome">Welcome<br>to<br>HANGMAN</h1>
-    <h1 class="play">PLAY</button>
-    </div>
-    <!-- break-->
-    <!-- second sequence-->
-    <div>
+  <h1 id= "welcome">Welcome<br>to<br>HANGMAN</h1>
+    <button id="play" onclick='hide()'>PLAY</button>
+
+    <!--SECOND SEQUENCE-->
+    <section id="letters">
+      <button>A</button>
+      <button>B</button>
+      <button>C</button>
+      <button>D</button>
+      <button>E</button>
+      <button>F</button>
+      <button>G</button>
+      <button>H</button>
+      <button>I</button>
+      <button>J</button>
+      <button>K</button>
+      <button>L</button>
+      <button>M</button>
+      <button>N</button>
+      <button>O</button>
+      <button>P</button>
+      <button>Q</button>
+      <button>R</button>
+      <button>S</button>
+      <button>T</button>
+      <button>U</button>
+      <button>V</button>
+      <button>W</button>
+      <button>X</button>
+      <button>Y</button>
+      <button>Z</button>
+    </section>
+
+<!---------------HANGMAN--------------->
+   
+    <div class="pictures">
       <img class = "gallows" src ="https://upload.wikimedia.org/wikipedia/commons/8/8b/Hangman-0.png?20060625005217"> </img>
       <img class="hang-head" src="https://upload.wikimedia.org/wikipedia/commons/3/30/Hangman-1.png?20060625005308"></img>
       <img class= "hang-body" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Hangman-2.png?20060625005341"></img>
