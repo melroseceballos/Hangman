@@ -1,165 +1,19 @@
-h1 {
-    text-align: center;
-    padding-top: 100px;
-    font-size: 75px;
+body {
+    background-color: white;
     color: black;
 }
-#play{
-    text-align: center;
+#welcome{
     color: black;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 150px;
-    margin-left: 600px;
-    font-size: 55px;
-    cursor: pointer;
-  
+    text-align: center;
 }
-#play:hover{color: green}
-body{
-    background-image: url("https://images.template.net/112311/free-animation-virtual-classroom-background-tvwow.jpg");
-    background-position: fixed;
-    background-size: 180vh;
-    cursor: pointer;
-
-}
-/**********LETTERS*****************/
-#letters {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0.3rem;
+#wordHere{
+    text-align: center;
     margin-top: 300px;
-    width: 841px;
-    margin-left: 285px;
-    display: none;
-    
-  }
-  #letters button {
-    font-size: 1.5rem;
-    font-weight: bold;
-    width: 45px;
-    padding: .8rem;
-    margin: .5rem;
-    border: 2px solid rgb(255, 254, 254);
-    color: black;
-    border-radius: .1rem;
+}
+#letters{
+    font-size: 35px;
+    width: 600px;
+    margin-left: 400px;
     text-align: center;
-    outline: none;
-    cursor: pointer;
-    opacity: .8;
-    padding-left: -5rem;
-  }
-
-  /**********GUESS WORD *************/
-#word-guess{
-   margin-top: -375px;
-    text-align: center;
-    font-size: 45px;
-    display: none;
+    margin-top: 50px;
 }
-/******MYSTERY WORD **************/
-#mystery-word{
-    display: none;
-    text-align: center;
-   
-}
-
-/******************HANGMAN******************/
-
-#gallows{
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-   
-}
-.hang-head {
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-    
-}
-.hang-body{
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-    
-}
-.right-arm{
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-}
-.left-arm{
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-}
-.left-leg{
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-
-}
-.right-leg{
-    transform: scaleX(-1);
-    margin-top: 28vh;
-    height: 300px;
-    margin-left: 575px;
-    width: 300px;
-    display: none;
-}
-
-#word {
-    font-size: 3rem;
-    letter-spacing: 1rem;
-    color: grey;
-  }
-  
-  button.wrong {
-    background-color: var(--accent-dark);
-    cursor: not-allowed;
-  }
-  
-  button.correct {
-    background-color: var(--accent-light);
-    cursor: not-allowed;
-  }
-  
-  #replay {
-    font-size: 1rem;
-    font-weight: bold;
-    padding: .7rem;
-    margin-top: 2rem;
-    border: 2px solid grey;
-    color: grey;
-    border-radius: .2rem;
-    outline: none;
-    cursor: pointer;
-  }
-  
-  #replay:hover {
-    background-color: grey;
-    color: white;
-  }
-  #specialWord{
-    display: none;
-  }
